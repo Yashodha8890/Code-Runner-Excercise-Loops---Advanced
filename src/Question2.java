@@ -16,9 +16,9 @@ import java.util.Scanner;
 
 public class Question2{
 
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+	public static void main(String[] args){
 		
+		Scanner in = new Scanner(System.in);
 		String guess;		
 		int count = 0;
 		
@@ -37,8 +37,7 @@ public class Question2{
 			else if(guess.equals("stop")) 
 			{
 				System.out.println("You guessed " + count + " times.");
-				break;
-				
+				break;				
 			}
 			count++;
 			
