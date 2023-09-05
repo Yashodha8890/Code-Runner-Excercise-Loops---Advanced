@@ -20,10 +20,12 @@ import java.util.Scanner;
 
 public class Question1 {
 	public static void main(String[] args) {
-		System.out.println("First number?");
-		Scanner in = new Scanner(System.in);
 		
+		Scanner in = new Scanner(System.in);
+		System.out.println("First number?");
+			
 		int num1 = in.nextInt();
+		
 		System.out.println("Last number?");
 		int num2 = in.nextInt();
 						
