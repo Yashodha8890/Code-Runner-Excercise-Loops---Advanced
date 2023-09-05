@@ -23,14 +23,14 @@ public class Question1 {
 		System.out.println("First number?");
 		Scanner in = new Scanner(System.in);
 		
-		int number1 = in.nextInt();
+		int num1 = in.nextInt();
 		System.out.println("Last number?");
-		int number2 = in.nextInt();
+		int num2 = in.nextInt();
 						
-		while(number1 <= number2) 
+		while(num1 <= num2) 
 			{				
-				System.out.println(number1);
-				number1++;
+				System.out.println(num1);
+				num1++;
 			}
 	}
 }
